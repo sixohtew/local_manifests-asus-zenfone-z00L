@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <!-- Remote name -->
+        <remote name="git"
+                        fetch="git://github.com" />
+
+        <!-- Device tree -->
+        <project path="device/asus/Z00ED" name ="lineageos/android_device_asus_Z00L" remote="git" revision="cm-14.1" />
+        <!-- Kernel -->
+        <project path="kernel/asus/msm8916" name ="lineageos/android_kernel_msm8916" remote="git" revision="cm-14.1" />
+         <!-- Common -->
+        <project path="device/asus/msm8916-common" name ="lineageos/android_device_asus_msm8916-common" remote="git" revision="cm-14.1" />
+        <!-- Vendor -->
+        <project path="vendor/asus" name ="themuppets/proprietary_vendor_asus" remote="git" revision="cm-14.1" />
+        <!-- QCOM addons -->
+        <project path="device/qcom/common" name ="lineageos/android_device_qcom_common" remote="git" revision="cm-14.1" />
+       
+</manifest>
+
